@@ -4,7 +4,7 @@ A [Unity Timeline](https://docs.unity3d.com/Packages/com.unity.timeline@1.2/manu
  
 In VR mode you can use a time control gesture similar to the one used in [Doctor Strange](https://www.imdb.com/title/tt1211837/):
 
-![WorldThumbnail](https://user-images.githubusercontent.com/4985522/184362326-331b0253-13a2-4f89-a13a-f749cdefa141.png)
+![WorldThumbnail](https://user-images.githubusercontent.com/4985522/184422147-27357bcf-c382-4997-ae35-1fb0b406056c.png)
 
 ### Try it in this VRChat World: [Dr. Strange Time Control](https://vrchat.com/home/world/wrld_7749aee8-a282-4445-8760-0eeb39ce2d7f/)
 

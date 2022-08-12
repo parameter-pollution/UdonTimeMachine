@@ -9,9 +9,9 @@ In VR mode you can use a time control gesture similar to the one used in [Doctor
 ### Try it in this VRChat World: [Dr. Strange Time Control](https://vrchat.com/home/world/wrld_7749aee8-a282-4445-8760-0eeb39ce2d7f/)
 
 ## Installation
-* Import [VRC World SDK](https://vrchat.com/home/download) (tested with VRCSDK3-WORLD-2022.07.26.21.44_Public)
-* Import [UdonSharp](https://github.com/vrchat-community/UdonSharp) (tested with UdonSharp_v0.20.3 )
-* Import [latest UdonTimeMachine](https://github.com/parameter-pollution/UdonTimeMachine/releases)
+1. Import [VRC World SDK](https://vrchat.com/home/download) (tested with VRCSDK3-WORLD-2022.07.26.21.44_Public)
+2. Import [UdonSharp](https://github.com/vrchat-community/UdonSharp) (tested with UdonSharp_v0.20.3 )
+3. Import [latest UdonTimeMachine](https://github.com/parameter-pollution/UdonTimeMachine/releases)
 
 ## Usage
 ### Example Scene

@@ -46,6 +46,24 @@ There is an interesting talk "[Cinemachine and Timeline in VRChat"](https://www.
 * Colliders on Particle Systems can cause very bad performance (especially when scrolling backwards in time). Use plane colliders instead of world colliders if you have to use colliders
 * When you put an Audio Source with Ambisonic audio on a Unity Timeline then it won't be played back as ambisonic anymore (at least not in VRChat). But a workaround is putting that Audio Source into the "Ambisonic" Slot on the "TimeMachine" Object (but this will only play/pause the ambisonic, no time scrubbing)
 
+## How does it work?
+The core of this is:
+```csharp
+//Reference to the Unity Timeline
+public PlayableDirector timeline;
+//Set the Time to the new Timestamp that we want it to be at
+timeline.time = newTime;
+//Tell Unity to evaluate (render) the timeline at the new timestamp
+timeline.DeferredEvaluate();
+```
+
+
+The other parts are "just":
+* Unity UIs
+* Gesture detections (the VR time stop/control gesture) via the avatar's arm/hand bone positions and rotations
+* A "hack" of getting desktop scroll input in VRChat by making the object that is moved invisible and calculating the distance it is moved from the origin
+* Udon Network syncing
+
 ## Disclaimer
 This is just a pet project of mine. I wanted it to exist and it didn't, so I decided to try to create it. But I don't have much time that I can put into it. So if you come up with a better system than this then send me a link and I will link to it here prominently. I don't need my name attached to this, I just want it to exist.
 

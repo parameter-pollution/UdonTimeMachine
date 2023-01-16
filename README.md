@@ -1,6 +1,6 @@
 # UdonTimeMachine (ALPHA)
 
-A [Unity Timeline](https://docs.unity3d.com/Packages/com.unity.timeline@1.2/manual/index.html) controller for VRChat Worlds that supports Desktop and VR mode and has a synced timeline so everyone in the same world instance sees and hears the same. 
+A [Unity Timeline](https://docs.unity3d.com/Packages/com.unity.timeline@1.2/manual/index.html) controller for VRChat Worlds that supports Desktop and VR mode  (inlcuding Meta Quest) and has a synced timeline so everyone in the same world instance sees and hears the same. 
  
 In VR mode you can use a time control gesture similar to the one used in [Doctor Strange](https://www.imdb.com/title/tt1211837/):
 

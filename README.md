@@ -6,7 +6,7 @@ In VR mode you can use a time control gesture similar to the one used in [Doctor
 
 ![WorldThumbnail](https://user-images.githubusercontent.com/4985522/184422147-27357bcf-c382-4997-ae35-1fb0b406056c.png)
 
-### Try it in this VRChat World: [Dr. Strange Time Control](https://vrchat.com/home/world/wrld_7749aee8-a282-4445-8760-0eeb39ce2d7f/)
+### Try it in this VRChat World (UPDATE: now Quest compatible!): [Dr. Strange Time Control](https://vrchat.com/home/world/wrld_7749aee8-a282-4445-8760-0eeb39ce2d7f/)
 
 ## Installation
 1. Import [VRC World SDK](https://vrchat.com/home/download) (tested with VRCSDK3-WORLD-2022.07.26.21.44_Public)

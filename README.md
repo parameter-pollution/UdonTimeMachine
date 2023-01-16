@@ -1,4 +1,4 @@
-# UdonTimeMachine (ALPHA)
+# UdonTimeMachine
 
 A [Unity Timeline](https://docs.unity3d.com/Packages/com.unity.timeline@1.2/manual/index.html) controller for VRChat Worlds that supports Desktop and VR mode  (inlcuding Meta Quest) and has a synced timeline so everyone in the same world instance sees and hears the same. 
  
